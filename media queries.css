@@ -1,0 +1,154 @@
+/* Mobile Responsive */
+
+ @media(max-width:768px){
+
+/* navbar */
+
+.main{
+    flex-direction: column;
+    padding: 20px;
+    text-align: center;
+}
+
+.search-bar input{
+    width: 100%;
+    font-size: 16px;
+}
+
+.one{
+    flex-direction: column;
+    gap: 10px;
+}
+
+/* navbar 2 */
+
+.nav-links{
+    flex-direction: column;
+    gap: 15px;
+    text-align: center;
+}
+
+.sub{
+    margin-left: 0;
+}
+
+
+.five{
+    flex-direction: column;
+    align-items: center;
+    gap: 20px;
+}
+
+.six{
+    max-width: 100%;
+}
+
+
+.main-card,
+.bottom-card{
+    flex-direction: column;
+    padding: 15px;
+}
+
+.main-card img,
+.bottom-card img{
+    width: 100%;
+    height: auto;
+}
+
+
+.hello{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    gap: 20px;
+}
+
+.card1,
+.card2,
+.card3,
+.card4,
+.card5,
+.card6{
+    max-width: 90%;
+}
+
+
+
+#img{
+    width: 100%;
+    height: auto;
+}
+
+
+.heading button,
+.heading2 button{
+    margin-left: 0;
+    margin-top: 10px;
+}
+
+
+.item4{
+    flex-direction: column;
+    max-width: 100%;
+}
+
+/* multiple cards */
+
+.multiplecards{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    gap: 20px;
+}
+
+.card15 img,
+.card18 img,
+.card19 img{
+    width: 100%;
+    height: auto;
+}
+#card22,
+#card25{
+    width: 100%;
+    height: auto;
+    margin-bottom: 20px;
+}
+
+#card0{
+    width: 45%;
+    margin: 10px;
+}
+
+/* footer  */
+
+footer{
+    height: auto;
+    padding: 30px 20px;
+}
+
+.item{
+    flex-direction: column;
+    gap: 20px;
+}
+
+.content,
+.content2,
+.content3,
+.content4,
+.content5{
+    float: none;
+    margin: 20px 0;
+}
+
+.box2{
+    flex-direction: column;
+    gap: 10px;
+}
+
+#email{
+    width: 100%;
+}
+
+} 
+ 
